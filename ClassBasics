@@ -1,0 +1,31 @@
+
+namespace ClassBasics //current incists
+{
+    public class Program
+    {
+        static void Main0()
+
+        {
+            System.Console.WriteLine("Hello");
+            Console.WriteLine("YCP");
+        }
+        static void Main()
+        {
+            Class1 c1;
+
+            c1 = new Class1();
+
+            c1.Display();
+        }
+    }
+
+    public class Class1
+    {
+        public void Display()
+        {
+            Console.WriteLine("Display called");
+        }
+    }
+
+}
+
